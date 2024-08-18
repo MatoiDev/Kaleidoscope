@@ -220,6 +220,7 @@ fileprivate class Text2ImageAPI {
             }
             task.resume()
         }
+        
         check()
     }
 }

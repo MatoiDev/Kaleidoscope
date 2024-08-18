@@ -9,8 +9,6 @@
 import UIKit
 
 
- // TODO: В секции 1 мы сделаем сначла промпт (текст вью), потом негатив промпт (текст филд), и потом стайл (пикер)
-
 final class SettingsView: UIView {
     
     // Elements

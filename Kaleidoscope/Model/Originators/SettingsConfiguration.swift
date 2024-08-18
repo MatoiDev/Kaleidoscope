@@ -10,6 +10,7 @@ import Foundation
 
 
 final class SettingsConfiguration: Codable {
+    
     final class State: Codable {
         var apiKey: String?
         var secretKey: String?

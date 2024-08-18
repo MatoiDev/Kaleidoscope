@@ -14,7 +14,6 @@ extension UIImage {
     
     static func solidFill(with color: UIColor) -> UIImage {
         let image: UIImage = Self.generatePixel(ofColor: color)
-    
         return image
     }
     

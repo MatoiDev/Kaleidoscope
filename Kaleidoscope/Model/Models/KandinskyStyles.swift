@@ -8,6 +8,7 @@
 
 import Foundation
 
+
 struct KandinskyStyles: Decodable {
     let name: String
     let titleEn: String

@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 final class LabeledTableViewCellWithTextView: UITableViewCell {
     
     // Properties

@@ -9,7 +9,6 @@
 import Foundation
 
 
-
 final class SettingsConfigurationCareTaker {
     private let decoder: JSONDecoder = JSONDecoder()
     private let encoder: JSONEncoder = JSONEncoder()

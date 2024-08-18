@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 protocol SettingsViewControllerPresenter: AnyObject {
     func dismissAndUpdateConfiguration(_ configuration: SettingsConfiguration) -> Void
 }
@@ -53,7 +54,7 @@ private extension SettingsViewController {
         } catch {
             settingsConfiguration = SettingsConfiguration()
             print(error.localizedDescription)
-        }ter
+        }
     }
     
     func fetchStylesData() {
